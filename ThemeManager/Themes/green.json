@@ -1,0 +1,500 @@
+{
+    
+    "ThemeBuildingBlocks" : {
+        "fonts": {
+            "Default":      "Interstate",
+            "Regular":      "Interstate-Regular",
+            "Light":        "Interstate-Light",
+            "ExtraLight":   "Interstate-ExtraLight",
+            "LightCondensed": "Interstate-LightCondensed",
+            "HelveticaRegular":     "Helvetica-Regular",
+            "HelveticaNeue-Medium": "HelveticaNeue-Medium"
+        },
+        "sizes": {
+            "Size_4":   "4.0",
+            "Size_10":  "10.0",
+            "Size_11":  "11.0",
+            "Size_12":  "12.0",
+            "Size_13":  "13.0",
+            "Size_14":  "14.0",
+            "Size_15":  "15.0",
+            "Size_16":  "16.0",
+            "Size_17":  "17.0",
+            "Size_18":  "18.0",
+            "Size_19":  "19.0",
+            "Size_20":  "20.0",
+            "Size_21":  "21.0",
+            "Size_22":  "22.0",
+            "Size_24":  "24.0",
+            "Size_26":  "26.0",
+            "Size_28":  "28.0",
+            "Size_30":  "30.0",
+            "Size_32":  "32.0",
+            "Size_35":  "35.0",
+            "Size_40":  "40.0",
+            "Size_43":  "43.0",
+            "Size_65":  "65.0",
+            "Size_70":  "70.0",
+            "Size_92":  "92.0",
+            "Size_100": "100.0"
+        },
+        "colors": {
+            "Agua":             "#1CB3B9",
+            "AppleGray":        "#E8E8E8",
+            "AppleLightGray":   "#F5F5F5",
+            "AzureBlue":        "#B9DBDC",
+            "Black":            "#000000",
+            "BlueZodiac":       "#0F1941",
+            "ChathamsBlue":     "#194685",
+            "Blue":         "#002D72",
+            "BlueWave2":    "#0066B3",
+            "BlueWave3":    "#00B3F0",
+            "Priority1":    "#0E2A48",
+            "Priority2":    "#091022",
+            "Red":          "#FF0000",
+            "Wave1":        "#004785",
+            "Wave4":        "#00BDF2",
+            "DarkBlue":         "#00317A",
+            "DarkGray":         "#323232",
+            "DarkGold":         "#78622A",
+            "DarkOrange":       "#BC3F0A",
+            "DarkOrchid":       "#804A9D",
+            "DeepCove":         "#04152F",
+            "DesertStorm":      "#F8F8F8",
+            "DoveGray":         "#707070",
+            "Endeavour":        "0060AF",
+            "FrenchBlue":       "#0075BB",
+            "Gray21":           "#353535",
+            "Gray68":           "#ADADAD",
+            "GroupedTableViewBackgroundColor": "#EEEEF4",
+            "HeaderBlack":      "#111111",
+            "HeaderBlue":       "#003378",
+            "Jade":             "#00A86B",
+            "LedgerGreen":      "#008A24",
+            "LightGold":        "#B5995C",
+            "LightGray":        "#999999",
+            "LighterGray":      "#CCCCCC",
+            "LightGrayNavigationBar" : "#F9F9F9",
+            "LightHairLineGray":"#808080",
+            "LightLinkBlue":    "#54C7FC",
+            "LightRed":         "#FACDCD",
+            "LinkBlue":         "#0077BB",
+            "Magenta" :         "#D22F8B",
+            "MediumGray":       "#767676",
+            "Midnight":         "#001C45",
+            "MidnightApprox":   "#001E3C",
+            "MidnightBlue":     "#161B44",
+            "PaleGold":         "#D5BA7F",
+            "PaleGray":         "#C7C7CC",
+            "Purple":           "#804B9D",
+            "RedOrange":        "#FF3333",
+            "RoyalBlue":        "#004FA6",
+            "SantasGray":       "#989EAB",
+            "SearchBarContainerViewColor":"#194685",
+            "SensitiveGray":    "#4A4A4A",
+            "SkyBlue":          "#007AFF",
+            "StayGoldDark":     "#7F5A0E",
+            "StayGoldLight":    "#BCA564",
+            "SteelGray":        "#454C55",
+            "Teal":             "#007377",
+            "TestColor":        "#FF6699",
+            "White":            "#FFFFFF",
+            "Red":              "#FF0000",
+            "Cerise" :          "#D22F8B",
+            "Cyan" :            "#1CB3B9",
+            "LightBlack":       "#111111",
+            "Cerulean":         "#00BDF2",
+            "DarkBlue2":        "#004785",
+            "SteelBlue":        "#0077BB",
+            "GoldFont":         "#B5995C",
+            "Yellow":           "#FFFF00"
+        }
+    },
+    
+    
+    "DefaultStyles" : {
+        
+        "UIButton": "ButtonStyle7",
+        "UINavigationBar": "NavBarStyle1",
+        "UIToolbar": "ToolbarDefaultStyle",
+        "UISwitch" : {
+            "onTintColor" : "LinkBlue"
+        },
+        "UIView" : {
+            "backgroundColor" : "AppleGray"
+        },
+        "UIBarButtonItem" : {
+            "tintColor" : "SkyBlue"
+        }
+    },
+    
+    "ReusableStyleCombinations" : {
+        "ToolbarDefaultStyle" : {
+            "tintColor": "White",
+            "barTint": "DarkBlue",
+            "translucent": "false"
+        },
+        "GoldNavBarStyle" : {
+            "tintColor": "White",
+            "barTint": "HeaderBlack",
+            "titleColor": "LightGold",
+            "translucent": "false",
+            "titleTextFont": "Regular",
+            "titleTextFontSize": "Size_16",
+            "barStyle" : "Black"
+        },
+        "NavBarStyle1" : {
+            "tintColor": "White",
+            "barTint": "LedgerGreen",
+            "titleColor": "White",
+            "translucent": "false",
+            "titleTextFont": "Regular",
+            "titleTextFontSize": "Size_16",
+            "barStyle" : "Black"
+        },
+        "NavBarStyle2" : {
+            "tintColor": "White",
+            "barTint": "MidnightApprox",
+            "titleColor": "White",
+            "translucent": "false",
+            "titleTextFont": "Regular",
+            "titleTextFontSize": "Size_16",
+            "barStyle" : "Black"
+        },
+        "ButtonStyle1": {
+            "fontName": "Regular",
+            "size": "Size_15",
+            "color": "Yellow"
+        },
+        "ButtonStyle2": {
+            "fontName": "Light",
+            "size": "Size_28",
+            "color": "White"
+        },
+        "ButtonStyle3": {
+            "fontName": "Light",
+            "size": "Size_13",
+            "color": "White"
+        },
+        "ButtonStyle4": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color": "HeaderBlue"
+        },
+        "ButtonStyle5": {
+            "fontName": "Light",
+            "size": "Size_16",
+            "color": "White"
+        },
+        "ButtonStyle6": {
+            "fontName": "Light",
+            "size": "Size_16",
+            "tintColor": "SkyBlue"
+        },
+        "ButtonStyle7": {
+            "fontName": "ExtraLight",
+            "size": "Size_16",
+            "tintColor": "Endeavour"
+        },
+        "ButtonStyle8": {
+            "fontName": "Regular",
+            "size": "Size_13",
+            "tintColor": "Endeavour",
+            "color": "White",
+            "borderColor": "White"
+        },
+        "ButtonStyle9": {
+            "fontName": "Regular",
+            "size": "Size_17",
+            "tintColor": "Endeavour",
+            "color": "SteelBlue",
+            "borderColor": "White"
+        },
+        "ButtonStyle10": {
+            "fontName": "Light",
+            "size": "Size_16",
+            "tintColor": "SteelBlue"
+        },
+        "ButtonStyle11": {
+            "fontName": "Regular",
+            "size": "Size_14",
+            "tintColor": "FrenchBlue"
+        },
+        "ButtonStyle12": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color": "White",
+            "tintColor": "White",
+            "backgroundColor" : "HeaderBlack"
+        },
+        "ButtonStyle13": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color" : "White",
+            "tintColor": "LinkBlue",
+            "backgroundColor" : "LinkBlue"
+        },
+        "ButtonStyle14": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color" : "White",
+            "backgroundColor": "Priority1",
+            "tintColor": "White"
+        },
+        "ButtonStyle15": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color" : "White",
+            "backgroundColor": "DarkGold",
+            "tintColor": "White"
+        },
+        "NavigationButtonStyle1": {
+            "titleTextFont":"Regular",
+            "titleTextFontSize":"Size_16",
+            "titleTextColor":"White"
+        },
+        "HeaderStyle1": {
+            "fontName": "Light",
+            "size": "Size_13",
+            "color": "DarkGray"
+        },
+        "FieldLabel" : {
+            "fontName": "Light",
+            "size": "Size_16",
+            "color": "DarkGray"
+        },
+        "FieldLabel2" : {
+            "fontName": "Light",
+            "size": "Size_15",
+            "color": "DarkGray"
+        },
+        "FieldLabel3": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color": "DarkGray"
+        },
+        "FieldLabel4": {
+            "fontName": "Light",
+            "size": "Size_13",
+            "color": "DarkGray"
+        },
+        "FieldLabel5" : {
+            "fontName": "Light",
+            "size": "Size_16",
+            "color": "SteelBlue"
+        },
+        "ConfirmationLabelStyle1": {
+            "fontName" : "Regular",
+            "size" : "Size_15",
+            "color"  : "LedgerGreen"
+        },
+        "ButtonStyle1": {
+            "fontName": "Regular",
+            "size": "Size_14",
+            "color": "FrenchBlue"
+        },
+        "ButtonStyle2": {
+            "fontName": "Light",
+            "size": "Size_14",
+            "color": "FrenchBlue"
+        },
+        "LabelStyle1":{
+            "fontName": "ExtraLight",
+            "size": "Size_28",
+            "color": "DarkGray"
+        },
+        "LabelStyle2":{
+            "fontName": "ExtraLight",
+            "size": "Size_14",
+            "color": "DarkGray"
+        },
+        "LabelStyle3":{
+            "fontName": "Light",
+            "size": "Size_16",
+            "color": "DarkGray"
+        },
+        "LabelStyle4":{
+            "fontName": "Light",
+            "size": "Size_15",
+            "color": "MediumGray"
+        },
+        "GrayHeading":{
+            "fontName": "Light",
+            "size": "Size_14",
+            "color": "MediumGray"
+        },
+        "DarkGrayLbl":{
+            "fontName": "Light",
+            "size": "Size_14",
+            "color": "DarkGray"
+        },
+        "DarkGray30LightLbl":{
+            "fontName": "Light",
+            "size": "Size_30",
+            "color": "DarkGray"
+        },
+        "DarkGray92ExtraLightLbl":{
+            "fontName": "ExtraLight",
+            "size": "Size_92",
+            "color": "White"
+        },
+        "White30LightLbl":{
+            "fontName": "Light",
+            "size": "Size_30",
+            "color": "White"
+        },
+        "White14LightLbl":{
+            "fontName": "Light",
+            "size": "Size_14",
+            "color": "White"
+        },
+        "Black16RegularLbl": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color": "Black"
+        },
+        "DarkGray28LightLbl":{
+            "fontName": "Light",
+            "size": "Size_28",
+            "color": "DarkGray"
+        },
+        "DarkGray13HelveticaRegularLbl":{
+            "fontName": "HelveticaRegular",
+            "size": "Size_13",
+            "color": "DarkGray"
+        },
+        "DarkGray21ExtraLightLbl":{
+            "fontName": "ExtraLight",
+            "size": "Size_21",
+            "color": "DarkGray"
+        },
+        "DarkGray100ExtraLightLbl":{
+            "fontName": "ExtraLight",
+            "size": "Size_100",
+            "color": "DarkGray"
+        },
+        "DarkGray14RegularLbl":{
+            "fontName": "Regular",
+            "size": "Size_14",
+            "color": "DarkGray"
+        },
+        "DarkGray30ExtraLight":{
+            "fontName": "ExtraLight",
+            "size": "Size_30",
+            "color": "DarkGray"
+        },
+        "DarkGray20Light":{
+            "fontName": "Light",
+            "size": "Size_20",
+            "color": "DarkGray"
+        },
+        "MediumGray20Light":{
+            "fontName": "Light",
+            "size": "Size_20",
+            "color": "MediumGray"
+        },
+        "SteelBlue16BoldLbl":{
+            "fontName": "LightCondensed",
+            "size": "Size_16",
+            "tintColor": "SteelBlue"
+        },
+        "MediumGray10LightLbl":{
+            "fontName": "Light",
+            "size": "Size_10",
+            "color": "MediumGray"
+        },
+        "LightBlack20LightTxtFld":{
+            "fontName": "Light",
+            "size": "Size_20",
+            "color": "LightBlack"
+        },
+        "Black65LightTxtFld":{
+            "fontName": "Light",
+            "size": "65.0",
+            "color": "Black"
+        },
+        "Gray21Light20Lbl": {
+            "fontName": "Light",
+            "size": "Size_20",
+            "color": "Gray21"
+        },
+        "MediumGray30LightLbl": {
+            "fontName": "Light",
+            "size": "Size_30",
+            "color": "MediumGray"
+        },
+        "MediumGray13LightLbl": {
+            "fontName": "Light",
+            "size": "Size_13",
+            "color": "MediumGray"
+        },
+        "LinkBlue12RegularButton": {
+            "fontName": "Regular",
+            "size": "Size_12",
+            "color": "LinkBlue"
+        },
+        "DoveGray13LightLbl":{
+            "fontName": "Light",
+            "size": "Size_13",
+            "color": "DoveGray"
+        },
+        "LinkBlue16RegularButton": {
+            "fontName": "Regular",
+            "size": "Size_16",
+            "color" : "LinkBlue"
+        }
+        
+    },
+    
+    "ViewController" : {
+        "view" : {
+            "backgroundColor" : "AppleGray"
+        },
+        "specificStyleButton" : "ButtonStyle4",
+        "disclaimer" : "SteelBlue16BoldLbl"
+    },
+    
+    "DashboardViewController" : {
+        "view" : {
+            "backgroundColor" : "Teal"
+        },
+        "specificLabel" : "DarkGray28LightLbl",
+        "specificButton" : "ButtonStyle1"
+    },
+    
+    "ContactUsViewController" : {
+        "view" : {
+            "backgroundColor" : "Cerise"
+        }
+    }
+    ,
+    
+    "ModalViewController" : {
+        "view" : {
+            "backgroundColor" : "LightGray"
+        },
+        
+        "label2" : {
+            "fontName"  : "Regular",
+            "size"      : "Size_20",
+            "color"     : "Cyan"
+        },
+        
+        "button2" : {
+            "fontName"  : "Regular",
+            "size"      : "Size_14",
+            "color"     : "Red"
+        },
+        "tableviewBtn" : "ButtonStyle1",
+        
+        "navigationController.navigationBar" : "NavBarStyle2"
+    },
+    
+    "CustomTableViewCell" : {
+        "cellLabel" : "LabelStyle2",
+        "cellButton" : "ButtonStyle10"
+    }
+    
+}
+
+
